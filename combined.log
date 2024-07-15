@@ -51,3 +51,10 @@
 {"level":"info","message":"GET /api/auth","timestamp":"2024-07-15T11:16:45.760Z"}
 {"level":"info","message":"POST /api/register","timestamp":"2024-07-15T11:17:33.044Z"}
 {"level":"info","message":"GET /api/register","timestamp":"2024-07-15T11:17:36.210Z"}
+{"level":"info","message":"GET /api-docs/%23/","timestamp":"2024-07-15T11:29:05.532Z"}
+{"level":"info","message":"GET /api-docs/","timestamp":"2024-07-15T11:30:02.685Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css","timestamp":"2024-07-15T11:30:02.818Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2024-07-15T11:30:02.829Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2024-07-15T11:30:02.832Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2024-07-15T11:30:02.835Z"}
+{"level":"info","message":"GET /","timestamp":"2024-07-15T11:30:11.405Z"}

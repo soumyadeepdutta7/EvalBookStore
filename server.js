@@ -48,10 +48,8 @@ const io = socketIo(server);
   }
 })();
 
-// app.use(bodyParser.json());
 app.use(express.json());
 app.use(requestLogger);
-// app.use(cookieParser());
 app.use(cors({origin:process.env.FRONTEND_URL}));
 app.use(session({
   secret: process.env.SESSION_SECRET,
@@ -59,7 +57,6 @@ app.use(session({
   saveUninitialized: true,
   store: MongoStore.create({ mongoUrl: process.env.MONGODB_URI }),
   cookie: {
-    // secure: true,
     httpOnly: true,
   }
 }));
@@ -83,10 +80,6 @@ initSockets(io);
 
 initCronJobs();
 
-// eventEmitter.on('orderPlaced', (order) => {
-//   console.log('Order placed:', order);
- 
-// });
 orderPlaced.on('orderPlaced', (order) => {
   console.log('Order placed event received:', order);
 });
